@@ -1,0 +1,585 @@
+
+> vite_react_shadcn_ts@0.0.0 dev:server
+> tsx watch server/index.ts
+
+✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Sync complete. Processed 0 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[2025-12-28T10:21:34.452Z] GET /api/status
+[2025-12-28T10:22:04.522Z] GET /api/status
+[2025-12-28T10:22:34.552Z] GET /api/status
+[2025-12-28T10:23:16.196Z] GET /api/status
+[2025-12-28T10:23:45.824Z] GET /api/status
+3:55:21 PM [tsx] change in ./server/services/calendar.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Sync complete. Processed 0 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T10:26:04.785Z] GET /api/status
+[2025-12-28T10:26:34.842Z] GET /api/status
+[2025-12-28T10:27:04.861Z] GET /api/status
+[2025-12-28T10:27:26.355Z] GET /api/status
+[2025-12-28T10:27:56.392Z] GET /api/status
+[2025-12-28T10:29:24.988Z] GET /api/status
+[2025-12-28T10:29:47.009Z] GET /api/status
+[2025-12-28T10:29:59.208Z] GET /api/status
+[2025-12-28T10:30:16.499Z] GET /api/deployments
+[2025-12-28T10:32:13.184Z] GET /api/deployments
+[2025-12-28T10:32:17.336Z] GET /api/deployments
+[2025-12-28T10:33:51.845Z] GET /api/deployments
+[2025-12-28T10:33:56.340Z] GET /api/incidents
+[2025-12-28T10:33:58.408Z] GET /api/logs?
+[2025-12-28T10:34:03.423Z] GET /api/logs?
+[2025-12-28T10:34:06.670Z] POST /api/action
+[2025-12-28T10:34:08.438Z] GET /api/logs?
+[2025-12-28T10:34:13.450Z] GET /api/logs?
+[2025-12-28T10:34:18.469Z] GET /api/logs?
+[2025-12-28T10:34:20.546Z] GET /api/logs?
+[2025-12-28T10:34:27.074Z] GET /api/status
+[2025-12-28T10:34:41.647Z] GET /api/deployments
+[2025-12-28T10:34:55.616Z] GET /api//deployments
+[2025-12-28T10:35:05.806Z] GET /api/deployments
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Sync complete. Processed 0 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T10:35:42.439Z] GET /api/deployments
+4:06:52 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Sync complete. Processed 0 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+4:08:17 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Sync complete. Processed 0 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T10:38:24.135Z] GET /api/deployments
+[2025-12-28T10:39:14.186Z] GET /api/deployments
+[2025-12-28T10:39:15.670Z] GET /api/status
+[2025-12-28T10:39:25.536Z] GET /api/deployments
+[2025-12-28T10:44:42.347Z] GET /api/status
+[2025-12-28T10:44:44.843Z] GET /api/deployments
+[2025-12-28T10:44:46.460Z] GET /api/deployments
+[2025-12-28T10:44:51.799Z] GET /api/deployments
+[2025-12-28T10:44:57.269Z] GET /api/deployments
+[2025-12-28T10:44:59.659Z] GET /api/deployments
+[2025-12-28T10:46:24.837Z] GET /api/deployments
+[2025-12-28T10:46:25.998Z] GET /api/deployments
+[2025-12-28T10:46:26.150Z] GET /api/deployments
+[2025-12-28T10:46:28.547Z] GET /api/deployments
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Sync complete. Processed 2 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T10:48:27.336Z] GET /api/deployments
+[2025-12-28T10:48:46.396Z] GET /api/deployments
+[2025-12-28T10:48:58.271Z] GET /api/logs?
+[2025-12-28T10:49:03.285Z] GET /api/logs?
+[2025-12-28T10:49:08.298Z] GET /api/logs?
+[2025-12-28T10:49:10.582Z] GET /api/incidents
+[2025-12-28T10:49:12.792Z] GET /api/deployments
+[2025-12-28T10:50:45.578Z] GET /api/deployments
+[2025-12-28T10:50:50.926Z] GET /api/deployments
+[2025-12-28T10:50:53.499Z] GET /api/deployments
+[2025-12-28T10:51:06.676Z] GET /api/deployments
+[2025-12-28T10:51:09.070Z] GET /api/deployments
+[2025-12-28T10:52:20.119Z] GET /api/deployments
+[2025-12-28T10:53:32.965Z] GET /api/deployments
+4:23:34 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Sync complete. Processed 2 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T10:53:49.452Z] GET /api/deployments
+[2025-12-28T10:54:22.395Z] GET /api/deployments
+[2025-12-28T10:54:24.181Z] GET /api/deployments
+[2025-12-28T10:55:32.541Z] GET /api/deployments
+[2025-12-28T10:57:35.774Z] GET /api/deployments
+[2025-12-28T10:57:50.100Z] GET /api/deployments
+4:27:51 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[2025-12-28T10:57:53.949Z] GET /api/deployments
+[GitHub] Sync complete. Processed 2 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[2025-12-28T10:57:55.956Z] GET /api/deployments
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:00:33.052Z] GET /api/deployments
+[2025-12-28T11:00:55.087Z] GET /api/deployments
+[2025-12-28T11:02:35.762Z] GET /api/deployments
+[2025-12-28T11:02:42.398Z] GET /api/deployments
+[2025-12-28T11:02:43.680Z] GET /api/deployments
+[2025-12-28T11:02:44.310Z] GET /api/deployments
+[2025-12-28T11:02:44.696Z] GET /api/deployments
+[2025-12-28T11:02:44.876Z] GET /api/deployments
+[2025-12-28T11:02:45.427Z] GET /api/deployments
+[2025-12-28T11:02:45.591Z] GET /api/deployments
+[2025-12-28T11:02:45.744Z] GET /api/deployments
+[2025-12-28T11:03:50.688Z] GET /api/deployments
+[2025-12-28T11:03:52.703Z] GET /api/incidents
+[2025-12-28T11:03:54.774Z] GET /api/status
+[2025-12-28T11:03:57.851Z] GET /api/deployments
+[2025-12-28T11:04:01.302Z] GET /api/deployments
+[2025-12-28T11:04:02.673Z] GET /api/deployments
+[2025-12-28T11:04:08.626Z] GET /api/deployments
+[2025-12-28T11:04:11.739Z] GET /api/deployments
+[2025-12-28T11:04:12.396Z] GET /api/deployments
+[2025-12-28T11:04:12.872Z] GET /api/deployments
+[2025-12-28T11:04:13.022Z] GET /api/deployments
+[2025-12-28T11:04:13.175Z] GET /api/deployments
+[2025-12-28T11:04:13.323Z] GET /api/deployments
+[2025-12-28T11:04:13.604Z] GET /api/deployments
+[2025-12-28T11:04:14.252Z] GET /api/deployments
+[2025-12-28T11:04:14.445Z] GET /api/deployments
+[2025-12-28T11:04:14.861Z] GET /api/deployments
+[2025-12-28T11:04:15.025Z] GET /api/deployments
+[2025-12-28T11:04:15.211Z] GET /api/deployments
+[2025-12-28T11:04:15.371Z] GET /api/deployments
+[2025-12-28T11:04:15.566Z] GET /api/deployments
+[2025-12-28T11:04:15.721Z] GET /api/deployments
+[2025-12-28T11:04:54.333Z] GET /api/deployments
+[2025-12-28T11:04:54.924Z] GET /api/deployments
+[2025-12-28T11:05:38.926Z] GET /api/incidents
+[2025-12-28T11:05:41.354Z] GET /api/logs?
+[2025-12-28T11:05:46.371Z] GET /api/logs?
+[2025-12-28T11:05:46.896Z] GET /api/logs?category=learning
+[2025-12-28T11:05:48.061Z] GET /api/logs?category=deployment
+[2025-12-28T11:05:49.211Z] GET /api/logs?category=system
+[2025-12-28T11:05:52.477Z] GET /api/logs?category=action
+[2025-12-28T11:05:57.489Z] GET /api/logs?category=action
+[2025-12-28T11:06:02.501Z] GET /api/logs?category=action
+[2025-12-28T11:06:07.520Z] GET /api/logs?category=action
+[2025-12-28T11:06:07.663Z] GET /api/logs?
+[2025-12-28T11:06:12.677Z] GET /api/logs?
+[2025-12-28T11:06:17.693Z] GET /api/logs?
+[2025-12-28T11:06:22.707Z] GET /api/logs?
+[2025-12-28T11:06:27.722Z] GET /api/logs?
+[2025-12-28T11:06:32.733Z] GET /api/logs?
+[2025-12-28T11:06:37.749Z] GET /api/logs?
+[2025-12-28T11:06:42.769Z] GET /api/logs?
+[2025-12-28T11:06:47.784Z] GET /api/logs?
+[2025-12-28T11:06:54.662Z] GET /api/incidents
+[2025-12-28T11:07:05.203Z] GET /api/deployments
+[2025-12-28T11:07:08.465Z] GET /api/deployments
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Sync complete. Processed 3 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:07:58.819Z] GET /api/deployments
+[2025-12-28T11:08:27.385Z] GET /api/deployments
+[2025-12-28T11:08:55.396Z] GET /api/deployments
+[2025-12-28T11:09:40.799Z] GET /api/status
+[2025-12-28T11:09:45.114Z] GET /api/deployments
+[2025-12-28T11:09:49.368Z] GET /api/deployments
+[2025-12-28T11:10:05.353Z] GET /api/deployments
+[2025-12-28T11:10:07.151Z] GET /api/status
+[2025-12-28T11:10:24.718Z] GET /api/status
+[2025-12-28T11:10:38.505Z] GET /api/status
+[2025-12-28T11:11:08.528Z] GET /api/status
+[2025-12-28T11:11:21.744Z] GET /api/status
+[2025-12-28T11:11:51.776Z] GET /api/status
+[2025-12-28T11:12:21.809Z] GET /api/status
+[2025-12-28T11:12:44.028Z] POST /api/action
+[2025-12-28T11:12:49.739Z] GET /api/status
+[2025-12-28T11:13:19.879Z] GET /api/status
+[2025-12-28T11:13:49.974Z] GET /api/status
+[2025-12-28T11:14:17.580Z] GET /api/status
+[2025-12-28T11:14:18.502Z] GET /api/status
+[2025-12-28T11:14:20.281Z] GET /api/deployments
+[2025-12-28T11:14:20.877Z] GET /api/deployments
+[2025-12-28T11:14:21.503Z] GET /api/incidents
+[2025-12-28T11:14:27.764Z] GET /api/logs?
+[2025-12-28T11:14:32.776Z] GET /api/logs?
+[2025-12-28T11:14:37.785Z] GET /api/logs?
+[2025-12-28T11:14:41.014Z] POST /api/action
+[2025-12-28T11:14:42.795Z] GET /api/logs?
+[2025-12-28T11:14:47.807Z] GET /api/logs?
+[2025-12-28T11:14:52.827Z] GET /api/logs?
+[2025-12-28T11:14:56.851Z] GET /api/deployments
+[2025-12-28T11:14:58.706Z] GET /api/status
+[2025-12-28T11:15:01.034Z] GET /api/status
+[2025-12-28T11:15:31.050Z] GET /api/status
+[2025-12-28T11:15:50.355Z] GET /api/incidents
+[2025-12-28T11:15:53.842Z] GET /api/logs?
+[2025-12-28T11:15:54.558Z] GET /api/deployments
+[2025-12-28T11:15:55.242Z] GET /api/status
+[2025-12-28T11:15:56.491Z] GET /api/deployments
+[2025-12-28T11:15:57.510Z] GET /api/incidents
+[2025-12-28T11:15:59.194Z] GET /api/status
+[2025-12-28T11:16:29.212Z] GET /api/status
+[2025-12-28T11:16:45.967Z] GET /api/logs?limit=20
+[2025-12-28T11:16:45.969Z] GET /api/status
+[2025-12-28T11:16:50.989Z] GET /api/logs?limit=20
+[2025-12-28T11:16:56.004Z] GET /api/logs?limit=20
+[2025-12-28T11:17:01.026Z] GET /api/logs?limit=20
+[2025-12-28T11:17:06.043Z] GET /api/logs?limit=20
+[2025-12-28T11:17:11.056Z] GET /api/logs?limit=20
+[2025-12-28T11:17:15.996Z] GET /api/status
+[2025-12-28T11:17:16.065Z] GET /api/logs?limit=20
+[2025-12-28T11:17:21.075Z] GET /api/logs?limit=20
+[2025-12-28T11:17:26.089Z] GET /api/logs?limit=20
+[2025-12-28T11:17:27.277Z] POST /api/action
+[2025-12-28T11:17:31.102Z] GET /api/logs?limit=20
+[2025-12-28T11:17:36.118Z] GET /api/logs?limit=20
+[2025-12-28T11:17:41.142Z] GET /api/logs?limit=20
+[2025-12-28T11:17:46.011Z] GET /api/status
+[2025-12-28T11:17:46.156Z] GET /api/logs?limit=20
+[2025-12-28T11:17:51.170Z] GET /api/logs?limit=20
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Sync complete. Processed 3 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:17:56.185Z] GET /api/logs?limit=20
+[2025-12-28T11:18:01.200Z] GET /api/logs?limit=20
+[2025-12-28T11:18:06.217Z] GET /api/logs?limit=20
+[2025-12-28T11:18:11.243Z] GET /api/logs?limit=20
+[2025-12-28T11:18:16.027Z] GET /api/status
+[2025-12-28T11:18:16.267Z] GET /api/logs?limit=20
+[2025-12-28T11:18:21.278Z] GET /api/logs?limit=20
+[2025-12-28T11:18:26.294Z] GET /api/logs?limit=20
+[2025-12-28T11:18:28.689Z] GET /api/deployments
+[2025-12-28T11:18:29.315Z] GET /api/incidents
+[2025-12-28T11:18:31.260Z] GET /api/logs?
+[2025-12-28T11:18:31.302Z] GET /api/logs?limit=20
+[2025-12-28T11:18:33.208Z] GET /api/logs?
+[2025-12-28T11:18:36.312Z] GET /api/logs?limit=20
+[2025-12-28T11:18:38.220Z] GET /api/logs?
+[2025-12-28T11:18:41.323Z] GET /api/logs?limit=20
+[2025-12-28T11:18:46.349Z] GET /api/logs?limit=20
+[2025-12-28T11:19:36.936Z] GET /api/logs?limit=20
+[2025-12-28T11:19:39.967Z] GET /api/logs?limit=20
+[2025-12-28T11:19:53.099Z] GET /api/logs?limit=20
+[2025-12-28T11:19:57.675Z] GET /api/status
+[2025-12-28T11:19:58.129Z] GET /api/logs?limit=20
+[2025-12-28T11:20:03.141Z] GET /api/logs?limit=20
+[2025-12-28T11:20:08.163Z] GET /api/logs?limit=20
+[2025-12-28T11:20:13.194Z] GET /api/logs?limit=20
+[2025-12-28T11:20:16.540Z] GET /api/logs?limit=20
+[2025-12-28T11:20:16.542Z] GET /api/status
+[2025-12-28T11:20:17.531Z] GET /api/status
+[2025-12-28T11:20:17.532Z] GET /api/logs?limit=20
+[2025-12-28T11:20:19.201Z] GET /api/deployments
+[2025-12-28T11:20:19.927Z] GET /api/incidents
+[2025-12-28T11:20:21.511Z] GET /api/deployments
+[2025-12-28T11:20:22.542Z] GET /api/logs?limit=20
+[2025-12-28T11:20:27.553Z] GET /api/logs?limit=20
+[2025-12-28T11:20:32.568Z] GET /api/logs?limit=20
+[2025-12-28T11:20:37.582Z] GET /api/logs?limit=20
+[2025-12-28T11:20:42.597Z] GET /api/logs?limit=20
+[2025-12-28T11:20:47.614Z] GET /api/logs?limit=20
+[2025-12-28T11:20:52.639Z] GET /api/logs?limit=20
+[2025-12-28T11:20:57.694Z] GET /api/logs?limit=20
+[2025-12-28T11:20:58.837Z] GET /api/incidents
+[2025-12-28T11:21:00.698Z] GET /api/logs?
+[2025-12-28T11:21:02.711Z] GET /api/logs?limit=20
+[2025-12-28T11:21:07.729Z] GET /api/logs?limit=20
+[2025-12-28T11:21:11.519Z] GET /api/status
+[2025-12-28T11:21:12.740Z] GET /api/logs?limit=20
+[2025-12-28T11:21:17.756Z] GET /api/logs?limit=20
+[2025-12-28T11:21:22.777Z] GET /api/logs?limit=20
+[2025-12-28T11:21:27.792Z] GET /api/logs?limit=20
+[2025-12-28T11:21:32.813Z] GET /api/logs?limit=20
+[2025-12-28T11:21:37.834Z] GET /api/logs?limit=20
+[2025-12-28T11:21:38.491Z] GET /api/status
+[2025-12-28T11:21:38.491Z] GET /api/logs?limit=20
+[2025-12-28T11:21:43.513Z] GET /api/logs?limit=20
+[2025-12-28T11:21:47.613Z] GET /api/deployments
+[2025-12-28T11:21:48.528Z] GET /api/logs?limit=20
+[2025-12-28T11:21:53.538Z] GET /api/logs?limit=20
+[2025-12-28T11:21:58.568Z] GET /api/logs?limit=20
+[2025-12-28T11:22:01.119Z] GET /api/status
+[2025-12-28T11:22:03.584Z] GET /api/logs?limit=20
+[2025-12-28T11:22:08.602Z] GET /api/logs?limit=20
+[2025-12-28T11:22:13.626Z] GET /api/logs?limit=20
+[2025-12-28T11:22:18.665Z] GET /api/logs?limit=20
+[2025-12-28T11:22:23.711Z] GET /api/logs?limit=20
+[2025-12-28T11:22:28.734Z] GET /api/logs?limit=20
+[2025-12-28T11:22:31.134Z] GET /api/status
+[2025-12-28T11:22:33.749Z] GET /api/logs?limit=20
+[2025-12-28T11:24:07.033Z] GET /api/status
+[2025-12-28T11:24:07.048Z] GET /api/logs?limit=20
+[2025-12-28T11:24:11.151Z] GET /api/status
+[2025-12-28T11:24:11.152Z] GET /api/logs?limit=20
+[2025-12-28T11:24:16.184Z] GET /api/logs?limit=20
+[2025-12-28T11:24:21.212Z] GET /api/logs?limit=20
+[2025-12-28T11:24:26.229Z] GET /api/logs?limit=20
+[2025-12-28T11:24:31.240Z] GET /api/logs?limit=20
+[2025-12-28T11:24:36.249Z] GET /api/logs?limit=20
+[2025-12-28T11:24:41.174Z] GET /api/status
+[2025-12-28T11:24:41.262Z] GET /api/logs?limit=20
+[2025-12-28T11:24:46.272Z] GET /api/logs?limit=20
+[2025-12-28T11:24:51.290Z] GET /api/logs?limit=20
+[2025-12-28T11:24:56.302Z] GET /api/logs?limit=20
+[2025-12-28T11:25:01.314Z] GET /api/logs?limit=20
+[2025-12-28T11:25:06.324Z] GET /api/logs?limit=20
+[2025-12-28T11:25:11.338Z] GET /api/logs?limit=20
+[2025-12-28T11:25:16.354Z] GET /api/logs?limit=20
+[2025-12-28T11:25:21.385Z] GET /api/logs?limit=20
+[2025-12-28T11:25:26.408Z] GET /api/logs?limit=20
+[2025-12-28T11:25:31.443Z] GET /api/logs?limit=20
+[2025-12-28T11:25:31.969Z] GET /api/logs?limit=20
+[2025-12-28T11:25:36.549Z] GET /api/status
+[2025-12-28T11:26:06.575Z] GET /api/status
+[2025-12-28T11:26:36.600Z] GET /api/status
+[2025-12-28T11:27:06.615Z] GET /api/status
+[2025-12-28T11:27:30.726Z] GET /api/deployments
+[2025-12-28T11:27:31.928Z] GET /api/incidents
+[2025-12-28T11:27:33.777Z] GET /api/logs?
+[2025-12-28T11:27:38.798Z] GET /api/logs?
+[2025-12-28T11:27:43.363Z] GET /api/status
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Sync complete. Processed 3 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:28:13.390Z] GET /api/status
+[2025-12-28T11:28:17.776Z] GET /api/status
+[2025-12-28T11:28:47.871Z] GET /api/status
+[2025-12-28T11:29:12.109Z] GET /api/status
+[2025-12-28T11:29:16.346Z] GET /api/deployments
+[2025-12-28T11:29:17.646Z] GET /api/incidents
+[2025-12-28T11:29:19.146Z] GET /api/deployments
+[2025-12-28T11:29:26.283Z] GET /api/status
+[2025-12-28T11:29:38.097Z] GET /api/status
+[2025-12-28T11:29:39.480Z] GET /api/deployments
+[2025-12-28T11:29:41.731Z] GET /api/logs?
+[2025-12-28T11:29:46.740Z] GET /api/logs?
+[2025-12-28T11:29:51.756Z] GET /api/logs?
+[2025-12-28T11:29:56.785Z] GET /api/logs?
+[2025-12-28T11:30:01.822Z] GET /api/logs?
+[2025-12-28T11:30:06.836Z] GET /api/logs?
+[2025-12-28T11:30:11.852Z] GET /api/logs?
+[2025-12-28T11:30:16.868Z] GET /api/logs?
+[2025-12-28T11:30:17.264Z] GET /api/incidents
+[2025-12-28T11:30:21.187Z] GET /api/deployments
+[2025-12-28T11:30:21.928Z] GET /api/status
+[2025-12-28T11:30:31.270Z] GET /api/logs?
+[2025-12-28T11:30:34.796Z] GET /api/status
+[2025-12-28T11:31:04.815Z] GET /api/status
+[2025-12-28T11:31:12.617Z] GET /api/status
+[2025-12-28T11:32:09.441Z] GET /api/status
+[2025-12-28T11:32:16.534Z] GET /api/logs?
+[2025-12-28T11:32:19.336Z] GET /api/logs?severity=info
+[2025-12-28T11:32:20.171Z] GET /api/logs?severity=warn
+[2025-12-28T11:32:21.087Z] GET /api/logs?severity=error
+[2025-12-28T11:32:23.820Z] GET /api/logs?category=deployment&severity=error
+[2025-12-28T11:32:24.671Z] GET /api/logs?category=learning&severity=error
+[2025-12-28T11:32:25.370Z] GET /api/logs?severity=error
+[2025-12-28T11:32:30.380Z] GET /api/logs?severity=error
+[2025-12-28T11:32:31.686Z] GET /api/logs?
+[2025-12-28T11:32:36.702Z] GET /api/logs?
+[2025-12-28T11:32:39.297Z] GET /api/incidents
+[2025-12-28T11:32:40.647Z] GET /api/deployments
+[2025-12-28T11:32:41.497Z] GET /api/status
+[2025-12-28T11:33:07.575Z] GET /api/deployments
+[2025-12-28T11:34:50.087Z] GET /api/deployments
+5:05:45 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 3 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:35:54.825Z] GET /api/deployments
+[2025-12-28T11:35:56.994Z] GET /api/incidents
+[2025-12-28T11:35:58.090Z] GET /api/logs?
+[2025-12-28T11:36:00.758Z] GET /api/logs?
+[2025-12-28T11:36:03.931Z] GET /api/status
+[2025-12-28T11:36:33.956Z] GET /api/status
+5:06:52 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 3 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:37:28.612Z] GET /api/logs?
+[2025-12-28T11:37:31.842Z] GET /api/incidents
+[2025-12-28T11:37:33.430Z] GET /api/deployments
+[2025-12-28T11:40:10.530Z] GET /api/deployments
+[2025-12-28T11:40:13.035Z] GET /api/deployments
+[2025-12-28T11:40:13.852Z] GET /api/deployments
+[2025-12-28T11:40:23.392Z] GET /api/status
+[2025-12-28T11:40:53.422Z] GET /api/status
+[2025-12-28T11:41:23.447Z] GET /api/status
+[2025-12-28T11:41:53.467Z] GET /api/status
+[2025-12-28T11:42:23.492Z] GET /api/status
+[2025-12-28T11:42:53.519Z] GET /api/status
+[2025-12-28T11:43:23.551Z] GET /api/status
+[2025-12-28T11:43:53.581Z] GET /api/status
+[2025-12-28T11:44:23.608Z] GET /api/status
+[2025-12-28T11:44:53.684Z] GET /api/status
+[2025-12-28T11:45:23.709Z] GET /api/status
+[2025-12-28T11:45:53.747Z] GET /api/status
+[2025-12-28T11:46:23.776Z] GET /api/status
+[2025-12-28T11:46:53.803Z] GET /api/status
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:47:23.839Z] GET /api/status
+5:17:52 PM [tsx] change in ./server/app.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+5:18:29 PM [tsx] change in ./server/app.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[2025-12-28T11:48:32.284Z] GET /api/status
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:49:02.355Z] GET /api/status
+[2025-12-28T11:49:32.384Z] GET /api/status
+[2025-12-28T11:49:58.753Z] GET /api/status
+[2025-12-28T11:50:28.823Z] GET /api/status
+[2025-12-28T11:50:37.591Z] GET /api/status
+[2025-12-28T11:51:07.611Z] GET /api/status
+[2025-12-28T11:51:37.644Z] GET /api/status
+[2025-12-28T11:52:53.764Z] GET /api/status
+5:22:59 PM [tsx] change in ./server/app.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+5:25:49 PM [tsx] change in ./server/services/github.ts Restarting...
+c✅ Connected to SQLite Database
+🔄 Starting Background Sync Jobs...
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+🚀 Server running on http://127.0.0.1:3000
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T11:58:25.855Z] GET /api/deployments
+[2025-12-28T11:58:28.036Z] GET /api/deployments
+[2025-12-28T11:58:39.889Z] GET /api/incidents
+[2025-12-28T11:59:09.165Z] GET /api/status
+[2025-12-28T11:59:18.078Z] GET /api/status
+[2025-12-28T11:59:19.206Z] GET /api/status
+[2025-12-28T11:59:19.952Z] GET /api/status
+[2025-12-28T11:59:20.542Z] GET /api/status
+[2025-12-28T11:59:30.083Z] GET /api/incidents
+[2025-12-28T11:59:33.894Z] GET /api/status
+[2025-12-28T11:59:36.073Z] GET /api/incidents
+[2025-12-28T11:59:46.999Z] GET /api/status
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T12:12:56.993Z] GET /api/status
+[GitHub] Syncing activity for birajdarushi...
+[Calendar] Syncing learning status...
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Processing PushEvent for birajdarushi/story-teller
+[GitHub] Payload keys: repository_id,push_id,ref,head,before
+[GitHub] Sync complete. Processed 4 events.
+[Calendar] Found current/next learning: Making my Portfolio Dashboard 😁
+[Calendar] Found Year Goal: Become a Devops Pro
+[2025-12-28T12:18:08.345Z] GET /api/status
+[2025-12-28T12:18:11.397Z] GET /api/status
+[2025-12-28T12:18:12.263Z] GET /api/status
+[2025-12-28T12:18:45.219Z] GET /api/deployments
+[2025-12-28T12:18:45.825Z] GET /api/status
+[2025-12-28T12:18:47.305Z] GET /api/logs?
+[2025-12-28T12:18:48.072Z] GET /api/incidents
+[2025-12-28T12:18:49.543Z] GET /api/deployments
+[2025-12-28T12:18:51.208Z] GET /api/status
+[2025-12-28T12:19:21.227Z] GET /api/status
+[2025-12-28T12:19:31.662Z] GET /api/status
+[2025-12-28T12:22:33.429Z] GET /api/status
+[2025-12-28T12:22:36.042Z] GET /api/status
+[2025-12-28T12:23:03.626Z] GET /api/status

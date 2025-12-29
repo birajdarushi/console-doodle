@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-3.0.x", "rhel-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Backend Schema adapted to Frontend Requirements
+
+model Log {
+  id        String   @id @default(uuid())
+  timestamp DateTime @default(now())
+  level     String   // info, warn, error
+  category  String   // learning, deployment, system, action
+  message   String
+  details   String?  // JSON: Record<string, string>
+}
+
+model Deployment {
+  id          String   @id @default(uuid())
+  project     String
+  status      String   // success, running, failed
+  timestamp   DateTime @default(now()) // Used to calculate "time ago"
+  
+  // Details JSON will store: { description, github, strategy, pipeline, decisions }
+  // OR we can make them explicit columns. Let's make description and github explicit for easier querying later? 
+  // actually, let's keep it simple and store rich structure in JSON to be flexible.
+  details     String?  // JSON
+}
+
+model Incident {
+  id          String   @id @default(uuid())
+  title       String
+  date        DateTime @default(now()) // displayed as date
+  impact      String
+  rootCause   String
+  status      String   // resolved
+  learning    String
+  timeline    String?  // JSON: { time, action, detail }[]
+}
+
+// Singleton for System Status (or we compute it dynamically)
+// But for "Learning Today" and "Year Goal", we might want a simple Config table
+model SystemConfig {
+  key   String @id
+  value String
+}
+
+model Visitor {
+  id        String   @id @default(uuid())
+  ip        String   
+  userAgent String?
+  timestamp DateTime @default(now())
+}
+
