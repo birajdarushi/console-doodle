@@ -5,10 +5,13 @@ import { createLog, getLogs, LogLevel, LogCategory } from './services/logger.js'
 import { githubService } from './services/github.js';
 import { calendarService } from './services/calendar.js';
 
-// ADDED: DNS Debugging
+// ADDED: DNS Debugging & IPv6 Support
 import dns from 'dns';
 import { promisify } from 'util';
 const dnsLookup = promisify(dns.lookup);
+
+// Force IPv6 resolution for Supabase compatibility (database only has IPv6)
+dns.setDefaultResultOrder('ipv6first');
 
 // Safe Prisma Init for Serverless
 let prismaInstance: PrismaClient;
@@ -162,6 +165,11 @@ app.get('/', (req, res) => {
 
 // 1. STATUS API
 app.get('/api/status', async (req, res) => {
+    // Debug variables declared at function scope for error handling
+    let debugResolvedIp = 'Not resolved';
+    let debugDnsInfo = 'Not checked';
+    let debugConnectionString = debugSanitizedConfig;
+
     try {
         console.log('[API] /api/status called');
         let configMap: any = {};
@@ -179,11 +187,14 @@ app.get('/api/status', async (req, res) => {
                 if (match && match[1]) {
                     const host = match[1];
                     try {
-                        const { address, family } = await dnsLookup(host);
-                        dnsInfo = `DNS: ${host} => ${address} (v${family})`;
+                        const { address, family } = await dnsLookup(host, { family: 6 });
+                        debugResolvedIp = address;
+                        debugDnsInfo = `${host} => ${address} (IPv${family})`;
+                        dnsInfo = `DNS: ${debugDnsInfo}`;
                         console.log(`[API] ${dnsInfo}`);
                     } catch (dnsErr) {
-                        dnsInfo = `DNS Fail: ${String(dnsErr)}`;
+                        debugDnsInfo = `Failed: ${String(dnsErr)}`;
+                        dnsInfo = `DNS Fail: ${debugDnsInfo}`;
                         console.error(dnsInfo);
                     }
                 }

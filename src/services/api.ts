@@ -1,11 +1,9 @@
 import { Deployment, Incident, LogEntry, SystemStatus } from "../types/start";
 
 // DYNAMIC API URL
-// In development: http://127.0.0.1:3000/api
-// In production: /api (relative, so it hits the same domain)
-const API_URL = import.meta.env.PROD
-    ? "/api"
-    : "http://127.0.0.1:3000/api";
+// Custom URL (for Vercel backend) > Production (same domain) > Development (localhost)
+const API_URL = import.meta.env.VITE_API_URL ||
+    (import.meta.env.PROD ? "/api" : "http://127.0.0.1:3000/api");
 
 export const api = {
     // Status

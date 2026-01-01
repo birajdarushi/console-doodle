@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Terminal, Activity, AlertTriangle, FileText, User, Sun, Moon, Github, Linkedin, Mail, Copy, Check } from 'lucide-react';
 import { LogStreamSidebar } from './LogStreamSidebar';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
+import { api } from '@/services/api';
 
 interface TerminalShellProps {
     children: React.ReactNode;
@@ -188,18 +189,19 @@ const TerminalShell = ({ children }: TerminalShellProps) => {
                             <div className="mt-auto p-4 border-t border-sidebar-border">
                                 <button
                                     onClick={async () => {
-                                        const status = await fetch('http://localhost:3000/api/status').then(res => res.json());
-                                        const url = status.resumeUrl;
+                                        try {
+                                            const status = await api.getStatus();
+                                            const url = status.resumeUrl;
 
-                                        if (url) {
-                                            fetch('http://localhost:3000/api/action', {
-                                                method: 'POST',
-                                                headers: { 'Content-Type': 'application/json' },
-                                                body: JSON.stringify({ action: 'Resume Download', details: { source: 'Sidebar', url } })
-                                            }).catch(console.error);
-                                            window.open(url, '_blank');
-                                        } else {
-                                            alert('Resume URL not configured yet.');
+                                            if (url) {
+                                                await api.logAction('Resume Download', { source: 'Sidebar', url });
+                                                window.open(url, '_blank');
+                                            } else {
+                                                alert('Resume URL not configured yet.');
+                                            }
+                                        } catch (error) {
+                                            console.error('Failed to download resume:', error);
+                                            alert('Failed to download resume. Please try again.');
                                         }
                                     }}
                                     className="flex items-center gap-2 text-xs text-muted-foreground hover:text-primary transition-colors w-full px-3 py-2"
