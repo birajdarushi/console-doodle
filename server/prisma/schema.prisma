@@ -47,3 +47,10 @@ model Visitor {
   userAgent String?
   timestamp DateTime @default(now())
 }
+
+model ProfilePhoto {
+  id         String   @id @default(uuid())
+  imageData  Bytes
+  mimeType   String
+  uploadedAt DateTime @default(now())
+}

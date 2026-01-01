@@ -390,3 +390,23 @@ app.get('/api/sync', async (req, res) => {
         res.status(500).json({ error: 'Sync failed' });
     }
 });
+
+// 7. PROFILE PHOTO API
+app.get('/api/profile-photo', async (req, res) => {
+    try {
+        const photo = await prisma.profilePhoto.findFirst({
+            orderBy: { uploadedAt: 'desc' }
+        });
+
+        if (!photo) {
+            return res.status(404).json({ error: 'No photo found' });
+        }
+
+        res.setHeader('Content-Type', photo.mimeType);
+        res.setHeader('Cache-Control', 'public, max-age=86400'); // Cache for 24 hours
+        res.send(photo.imageData);
+    } catch (e: any) {
+        console.error('[API] Profile photo error:', e);
+        res.status(500).json({ error: 'Failed to fetch photo' });
+    }
+});

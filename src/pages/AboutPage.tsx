@@ -63,6 +63,29 @@ export const AboutPage = () => {
             </p>
           </section>
 
+          <section>
+            <h2 className="text-terminal-highlight font-medium mb-3">Education</h2>
+            <div className="border border-border rounded-lg p-4 space-y-2 bg-background/50">
+              <h3 className="text-foreground font-medium">
+                Walchand Institute of Technology
+              </h3>
+              <p className="text-muted-foreground text-sm">
+                Bachelor in Technology, Information Technology
+              </p>
+              <p className="text-terminal-text-dim text-sm">
+                2022 - Present
+              </p>
+              <div className="flex gap-4 mt-2">
+                <span className="text-success font-mono text-sm">
+                  CGPA: 8.6*
+                </span>
+                <span className="text-terminal-highlight font-mono text-sm">
+                  Honour in AIML*
+                </span>
+              </div>
+            </div>
+          </section>
+
           <section className="pt-4 border-t border-border">
             <p className="text-terminal-text-dim italic">
               “The best infrastructure is invisible infrastructure. It just works.”

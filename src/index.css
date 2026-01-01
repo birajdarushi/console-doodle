@@ -216,14 +216,18 @@
 
 @layer components {
   .terminal-window {
-    @apply bg-terminal-bg border border-terminal-border rounded-lg overflow-hidden;
+    @apply bg-terminal-bg border border-terminal-border rounded-lg;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    overflow: visible;
   }
 
   .terminal-header {
     @apply bg-terminal-header px-4 flex items-center gap-2 border-b border-terminal-border;
     height: 36px;
     box-shadow: inset 0 -1px 2px rgba(0, 0, 0, 0.4);
+    overflow: visible;
+    position: relative;
+    z-index: 50;
   }
 
   .traffic-light {
